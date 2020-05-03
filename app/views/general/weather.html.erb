@@ -2,6 +2,10 @@
 
 <%= @update %>
 
+<div class="current">
+  <%= @current %>
+</div>
+
 <% @info.periods.each do |period| %>
   <h3><strong><%= period["name"] %></strong></h3>
   <h4><strong><%= DateTime.parse(period["startTime"]).in_time_zone("Central Time (US & Canada)").strftime("%H:%M") %></strong></h4>

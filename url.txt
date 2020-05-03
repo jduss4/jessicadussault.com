@@ -1,1 +1,3 @@
 https://api.weather.gov/gridpoints/OAX/53,40/forecast/hourly
+https://api.weather.gov/stations/KLNK/observations/latest
+https://api.weather.gov/alerts/active/zone/NEZ066
