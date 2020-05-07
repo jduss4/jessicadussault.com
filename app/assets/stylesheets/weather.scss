@@ -1,0 +1,16 @@
+@import "variables";
+
+.temp-range-container {
+  background-color: $base-color;
+  border-radius: 30px;
+}
+
+.temp-range {
+  background-color: $accent-color;
+  border-radius: 30px;
+  height: 2em;
+}
+
+.weather-period {
+  margin-top: 1em;
+}

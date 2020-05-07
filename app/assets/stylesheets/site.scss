@@ -1,14 +1,138 @@
 @import "variables";
 
-body {
-  background-color: $base-color;
-  margin: 0px;
+/* ************ */
+/* a few basics */
+/* ************ */
+
+a {
+  color: $accent-color;
 }
 
-.header {
-  background-color: $alt-color;
+em {
+  font-style: italic;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $text-color;
+  font-weight: bold;
+  padding: .2em 0;
+}
+
+/* the h1 as set on the non-home pages */
+h1 {
+  margin-left: 1em;
+  color: $text-alt-color;
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 2em;
+  padding: .4em 0;
+}
+
+h3 {
+  font-size: 1.5em;
+  padding: .3em 0;
+}
+
+h4 {
+  font-size: 1.24em;
+}
+
+h5 {
+  font-size: 1.1em;
+}
+
+h6 {
+  font-size: 1em;
 }
 
 strong {
   font-weight: bold;
+}
+
+/* **************** */
+/* body and content */
+/* **************** */
+
+body {
+  color: $text-color;
+  font-family: Arial;
+
+  /* taken from https://css-tricks.com/a-few-background-patterns-sites/ */
+  $stripe_bg: $text-alt-color;
+  background:
+    linear-gradient(135deg, $stripe_bg 25%, transparent 25%) -35px 0,
+    linear-gradient(225deg, $stripe_bg 25%, transparent 25%) -35px 0,
+    linear-gradient(315deg, $stripe_bg 25%, transparent 25%),
+    linear-gradient(45deg, $stripe_bg 25%, transparent 25%);
+  background-size: 70px 70px;
+  background-color: lighten($alt-color, 15%);
+}
+
+.content {
+  background-color: lighten($base-color, 25%);
+  /*background-color: lighten($accent-color, 40%);*/
+  border-left: 1em solid $base-color;
+  /*border-right: 1em solid $base-color;*/
+  padding: 1em;
+  margin-left: 5%;
+  margin-right: 5%;
+  opacity: 80%;
+}
+
+/* ****************** */
+/* header / nav stuff */
+/* ****************** */
+
+.header {
+  background-color: $base-color;
+}
+
+.home {
+  h1 {
+    font-size: 5em;
+    text-align: center;
+  }
+}
+
+.navigation {
+  border-top: dotted 3px white;
+  border-bottom: dotted 3px white;
+  background-color: $accent-color;
+  display: flex;
+  flex-wrap: wrap;
+
+  .nav-link {
+    border-left: dotted 3px white;
+    color: darken($base-color, 30%);
+    flex-grow: 1;
+    padding: .25em;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: lowercase;
+  }
+
+  & :nth-child(4) {
+    border-right: dotted 3px white;
+  }
+
+  .nav-link:hover {
+    background-color: orange;
+    color: $text-color;
+  }
+  @media screen and (max-width: 992px) {
+    .nav-link {
+      flex: 40%;
+    }
+
+    & :nth-child(2) {
+      border-right: dotted 3px white;
+    }
+
+    & :nth-child(3),:nth-child(4) {
+      border-top: dotted 3px white;
+    }
+  }
 }

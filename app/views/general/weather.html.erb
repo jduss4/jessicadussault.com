@@ -1,14 +1,44 @@
 <h2>Weather!</h2>
 
-<%= @update %>
-
-<div class="current">
-  <%= @current %>
+<div class="current-container">
+  <div>
+    Lincoln, NE
+  </div>
+  <div>
+    Last updated <%= @update %>
+  </div>
+  <div>
+    <ul>
+      <li><%= @current["textDescription"] %></li>
+      <li><%= temp_to_f(@current["temperature"]["value"]) %>˚F</li>
+      <li>Feels like <%= temp_to_f(@current["heatIndex"]["value"]) %>˚F</li>
+      <li>Wind <%= @current["windSpeed"]["value"] %></li>
+      <li>Wind Direction <%= @current["windDirection"]["value"] %></li>
+      <li>Gusts of <%= @current["windGust"]["value"] %></li>
+    </ul>
+  </div>
 </div>
 
 <% @info.periods.each do |period| %>
   <h3><strong><%= period["name"] %></strong></h3>
-  <h4><strong><%= DateTime.parse(period["startTime"]).in_time_zone("Central Time (US & Canada)").strftime("%H:%M") %></strong></h4>
-  <%= period %>
-  <br>
+  <div class="weather-period <%= 'day' if period["isDaytime"] == true %>">
+    <div class="icon"/>
+    <div class="">
+      <%= period["temperature"] %> ˚<%= period["temperatureUnit"] %> | <%= period["shortForecast"] %>
+      <br>
+
+      <% range = calc_range_margins(period["range"]) %>
+      <div class="temp-range-container">
+        <div class="temp-range" style="margin-left: <%= range["low"] %>%; margin-right: <%= range["high"] %>%;" >
+        </div>
+      </div>
+       <div>
+        <span style="margin-left: <%= range["low"] %>%;">
+          <%= period["range"]["low"] %>
+        </span>
+        <span style="margin-right: <%= range["high"] %>%;">
+          <%= period["range"]["high"] %>
+        </span>
+      </div>
+  </div>
 <% end %>

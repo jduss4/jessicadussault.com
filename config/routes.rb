@@ -3,5 +3,7 @@ Rails.application.routes.draw do
 
 
   get '/', to: 'general#index', as: 'home'
+  get 'about', to: 'general#about', as: 'about'
+  get 'posts', to: 'general#posts', as: 'posts'
   get 'weather', to: 'general#weather', as: 'weather'
 end

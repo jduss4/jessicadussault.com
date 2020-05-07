@@ -4,9 +4,9 @@ class GeneralController < ApplicationController
 
   def weather
     weather = @@nws.weather("lincoln")
-    @current = weather[:current]
+    @current = weather[:current]["properties"]
     @info = weather[:forecast]
-    @update = weather[:update]
+    @update = weather[:update].strftime("%Y %B %d, %H:%I%P")
   end
 
 end
