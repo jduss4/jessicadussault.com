@@ -58,6 +58,7 @@ strong {
 body {
   color: $text-color;
   font-family: Arial;
+  font-size: 1.2em;
 
   /* taken from https://css-tricks.com/a-few-background-patterns-sites/ */
   $stripe_bg: $text-alt-color;
@@ -91,9 +92,14 @@ body {
 
 .home {
   h1 {
+    margin-left: 0;
     font-size: 5em;
     text-align: center;
   }
+}
+
+.home-link {
+  text-decoration: none;
 }
 
 .navigation {
