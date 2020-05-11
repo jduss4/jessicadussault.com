@@ -1,0 +1,25 @@
+<h2>Posts</h2>
+
+<div class="post-list">
+
+  <%= link_to post_path(id: "2019_12_dndmini") do %>
+    <h3>Homemade D&D Miniatures</h3>
+    <div class="date">2019 December</div>
+    <div class="post-preview">
+      <%= image_tag "posts/previews/2019_12_dndmini.jpg",
+        alt: "a paladin clothespin doll with wild red hair and a goblin doll with angry eyes" %>
+      <span>By popular request, a guide demonstrating how I created clothespin miniatures for Dungeons & Dragons.</span>
+    </div>
+  <% end %>
+
+  <%= link_to post_path(id: "2016_08_kodaly") do %>
+    <h3>A Good Day to Kodály</h3>
+    <div class="date">2016 August</div>
+    <div class="post-preview">
+      <%= image_tag "posts/previews/2016_08_kodaly.jpg",
+        alt: "yellow rose positioned above sheet music" %>
+      <span>Program notes from the 2016 Summer of Kodály</span>
+    </div>
+  <% end %>
+
+</div>

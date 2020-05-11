@@ -2,7 +2,16 @@
   <h1>jessica dussault</h1>
 <% end %>
 <div class="navigation">
-  <%= link_to "Posts", :posts, class: "nav-link" %>
-  <%= link_to "Weather", :weather, class: "nav-link" %>
-  <%= link_to "About", :about, class: "nav-link" %>
+  <%= link_to :posts,
+    class: nav_link_class(:posts) do %>
+    <span>Posts</span>
+  <% end %>
+  <%= link_to :weather,
+    class: nav_link_class(:weather) do %>
+    <span>Weather</span>
+  <% end %>
+  <%= link_to :about,
+    class: nav_link_class(:about) do %>
+    <span>About Me</span>
+  <% end %>
 </div>
