@@ -5,6 +5,6 @@ Rails.application.routes.draw do
   get '/', to: 'general#index', as: 'home'
   get 'about', to: 'general#about', as: 'about'
   get 'posts', to: 'posts#index', as: 'posts'
-  get 'post/:id', to: 'posts#show', as: 'post'
+  get 'posts/:id', to: 'posts#show', as: 'post'
   get 'weather', to: 'general#weather', as: 'weather'
 end

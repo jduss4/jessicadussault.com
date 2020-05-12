@@ -1,7 +1,7 @@
 module ApplicationHelper
 
   def nav_link_class(link)
-    if current_page? link
+    if request.path[/^\/#{link}\/?/]
       "nav-link active"
     else
       "nav-link"
