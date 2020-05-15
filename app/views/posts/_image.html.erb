@@ -1,0 +1,12 @@
+<%# expecting:
+  - image (filename)
+  - large (t/f)
+  - alt (text)
+  - caption (text)
+%>
+
+<div class="image">
+  <%= image(image, large: large, alt: alt) %>
+  <% label = local_assigns[:caption] ? caption : alt %>
+  <span class="caption"><%= label %></span>
+</div>

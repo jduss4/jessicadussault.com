@@ -23,6 +23,8 @@
 !/storage/.keep
 
 /public/assets
+# images uploaded to s3 are kept with the repo locally for organization
+/images
 .byebug_history
 
 # Ignore master key for decrypting credentials and more.
