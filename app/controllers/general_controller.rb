@@ -1,12 +1,13 @@
 class GeneralController < ApplicationController
 
-  @@nws = NwsConnector.new()
-
   def weather
-    weather = @@nws.weather("lincoln")
-    @current = weather[:current]["properties"]
-    @info = weather[:forecast]
-    @update = weather[:update].strftime("%Y %B %d, %H:%I%P")
+    # Location object
+    lnk = @@weather.status("lincoln")
+    # NwsConnection objects
+    @alerts = lnk.alerts
+    @current = lnk.current.get_json["properties"]
+    # Forecast object
+    @forecast = lnk.forecast
   end
 
 end

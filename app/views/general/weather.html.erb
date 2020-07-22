@@ -1,3 +1,63 @@
 <h2>Weather!</h2>
 
-<p>Coming soon, a weather page specific to Lincoln, NE, with all the information that I actually want to see in one convenient place...except for radar, probably that's not gonna happen.</p>
+
+<h3>Current Conditions: Lincoln, NE</h3>
+<p>Observed <%= cst(@current["timestamp"]) %></p>
+<div class="weather-current weather-period">
+  <div class="icon icon-<%= weather_icon(@current["icon"]) %>"></div>
+  <div class="info">
+    <div class="temp">
+      <strong><%= temp_to_f(@current["temperature"]["value"]) %></strong>
+
+      <% if @current["heatIndex"]["value"] %>
+        Feels like <%= temp_to_f(@current["heatIndex"]["value"]) %>
+      <% end %>
+    </div>
+    <div class="wind">
+      <ul>
+        <li>Wind <%= @current["windSpeed"]["value"] %> <%= wind_dir_desc(@current["windDirection"]["value"]) %></li>
+        <% if @current["windGust"]["value"].present? %>
+          <li>Gusts of <%= @current["windGust"]["value"] %></li>
+        <% end %>
+      </ul>
+    </div>
+    <div class="desc">
+      <%= @current["textDescription"] %>
+    </div>
+  </div>
+</div>
+
+<h3>Forecast</h3>
+
+<% @forecast.periods.each do |period| %>
+  <h4><%= period["name"] %></h4>
+  <div class="<%= daytime?(period["isDaytime"]) %>">
+    <p><%= period["shortForecast"] %></p>
+    <ul>
+      <li><%# period %></li>
+      <li>Temp: <%= period["temperature"] %> <%= period["temperatureUnit"] %></li>
+      <li>Wind: <%= period["windSpeed"] %> <%= period["windDirection"] %></li>
+      <li>Forecast: <%= period["detailedForecast"] %></li>
+    </ul>
+    <% period["hours"].each do |hour| %>
+      <h5><%= cst(hour["startTime"], time_only: true) %></h5>
+      <div class="weather-hourly weather-period">
+        <div class="icon icon-<%= weather_icon(period["icon"]) %>"></div>
+        <div class="info">
+          <div class="temp">
+            <strong><%= hour["temperature"] %>˚<%= hour["temperatureUnit"] %></strong>
+          </div>
+          <div class="wind">
+            <ul>
+              <li>Wind <%= hour["windSpeed"] %> <%= hour["windDirection"] %></li>
+            </ul>
+          </div>
+          <div class="desc">
+            <%= hour["shortForecast"] %>
+          </div>
+        </div>
+      </div>
+    <% end %>
+  </div>
+
+<% end %>

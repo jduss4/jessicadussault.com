@@ -17,16 +17,13 @@ class Forecast
   end
 
   def combine_forecasts(daily, hourly)
-    hourly_periods = hourly["properties"]["periods"]
-    hours_by_day = hourly_periods.group_by { |p| p["startTime"][/\d{4}-\d{2}-\d{2}/] }
+    hourly_periods = hourly.get_json["properties"]["periods"]
 
-    daily["properties"]["periods"].each do |period|
-      # iterate through hours_by_day and add those which match range
-      date = period["startTime"][/\d{4}-\d{2}-\d{2}/]
-      possible_hours = hours_by_day[date]
-      period["hours"] = possible_hours.select do |hour|
-        contains_hour?(period["startTime"], period["endTime"], hour["startTime"])
-      end
+    daily.get_json["properties"]["periods"].each do |period|
+      start = period["startTime"]
+      finish = period["endTime"]
+      period["hours"] = hourly_periods.select { |hour| contains_hour?(start, finish, hour["startTime"]) }
+      puts "hours by day: #{start} -> #{period["hours"]}"
       # calculate the high and low temperatures for the period
       period["range"] = calc_range(period)
 
@@ -36,10 +33,10 @@ class Forecast
   end
 
   def contains_hour?(startTime, endTime, hour)
-    startTime = DateTime.parse(startTime)
-    endTime = DateTime.parse(endTime)
+    start = DateTime.parse(startTime)
+    finish = DateTime.parse(endTime)
     hour = DateTime.parse(hour)
 
-    hour >= startTime && hour < endTime
+    hour >= start && hour < finish
   end
 end
