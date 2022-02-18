@@ -1,0 +1,25 @@
+---
+title: My Rad Blog
+---
+
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>{{ title }}</title>
+<!--     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    {% include "_meta_tags.njk" %}
+    {% include "_favicon.njk" %}
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+
+  <body class="home">
+    <div class="header">
+      {% include "_header.njk" %}
+    </div>
+    <div class="content">
+      {{ content | safe }}
+    </div>
+  </body>
+</html>

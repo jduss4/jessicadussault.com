@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "eleventy": ">=1.0.0",
+    "sass": "^1.49.8"
+  },
+  "scripts": {
+    "watch:sass": "npx sass _assets:_site/css --watch"
+  }
+}
