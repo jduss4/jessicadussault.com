@@ -4,6 +4,8 @@
     "sass": "^1.49.8"
   },
   "scripts": {
-    "watch:sass": "npx sass _assets:_site/css --watch"
+    "watch:sass": "npx sass _assets:_site/css --watch",
+    "watch:eleventy": "npx @11ty/eleventy --serve",
+    "start": "npm run watch:eleventy & npm run watch:sass"
   }
 }
