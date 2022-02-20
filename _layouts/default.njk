@@ -1,25 +1,25 @@
 ---
-title: My Rad Blog
+title: Jessica Dussault
 ---
 
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
     <title>{{ title }}</title>
-<!--     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     {% include "_meta_tags.njk" %}
     {% include "_favicon.njk" %}
     <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/css/style.css">
   </head>
 
-  <body class="home">
-    <div class="header">
-      {% include "_header.njk" %}
-    </div>
-    <div class="content">
+  <body class="{{ body_class }}">
+    {% include "_header.njk" %}
+
+    <main>
       {{ content | safe }}
-    </div>
+    </main>
   </body>
+
 </html>

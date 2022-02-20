@@ -1,8 +1,10 @@
 ---
 layout: default.njk
-title: Welcome to my first page
+body_class: home
 ---
 
-<h1>Testing</h1>
+## Welcome
 
-Here is a little content just to see what happens
+Jessica is a programmer and cellist based in Nebraska.
+
+She is, as you might have guessed, not a designer.

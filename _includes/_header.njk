@@ -1,26 +1,16 @@
-{#
-<%= link_to home_path, class: "home-link" do %>
-  <h1>jessica dussault</h1>
-<% end %>
-<div class="navigation">
-  <%= link_to :posts,
-    class: nav_link_class("posts") do %>
-    <span>Posts</span>
-  <% end %>
-  <%= link_to :weather,
-    class: nav_link_class("weather") do %>
-    <span>Weather</span>
-  <% end %>
-  <%= link_to :about,
-    class: nav_link_class("about") do %>
-    <span>About Me</span>
-  <% end %>
-</div>
-#}
+<header>
+  <h1><a href="/" class="home-link">jessica dussault</a></h1>
 
-<a href="#" class="home-link"><h1>jessica dussault</h1></a>
-
-<div class="navigation">
-  {# add active if active #}
-  <a href="#" class="nav-link">Posts</a>
-</div>
+  {# TODO add active #}
+  <nav>
+    <a href="/posts" class="nav-link">
+      <span>Posts</span>
+    </a>
+    <a href="/photos" class="nav-link">
+      <span>Photos</span>
+    </a>
+    <a href="/about" class="nav-link">
+      <span>About me</span>
+    </a>
+  </nav>
+</header>
