@@ -12,7 +12,9 @@ npm start
 Build
 
 ```
-npx @11ty/eleventy
+npm run build
 ```
+
+## More information
 
 For SCSS setup see [Using SASS with Eleventy](https://jkc.codes/blog/using-sass-with-eleventy/)

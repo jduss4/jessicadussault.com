@@ -9,9 +9,15 @@ layout: default.njk
 {% for post in collections.posts %}
   <li class="post-preview">
     <h3><a href="{{ post.url | url }}">{{ post.data.title }}</a></h3>
-    <p>{{ post.data.date_display }}</p>
-    <p>{{ post.data.preview_text }}</p>
-    <img src="/assets/images/posts/{{ post.data.img_dir }}/{{ post.data.preview_img }}" alt="a yellow rose above sheet music"/>
+
+    <p class="post-date">{{ post.data.date_display }}</p>
+
+    <div>
+      <a href="{{post.url | url }}">
+        <img src="/assets/images/posts/{{ post.data.img_dir }}/{{ post.data.preview.img }}" alt="{{ post.data.preview.alt }}"/>
+      </a>
+      <p>{{ post.data.preview.summary }}</p>
+    </div>
   </div>
 {% endfor %}
 </ul>
