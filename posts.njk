@@ -3,4 +3,16 @@ title: Jessica posts
 layout: default.njk
 ---
 
-<p>This is a placeholder for the list of blogposts that will soon be coming, probably</p>
+<h2>Posts</h2>
+
+<ul class="post-list">
+{% for post in collections.posts %}
+  <li class="post-preview">
+    <h3><a href="{{ post.url | url }}">{{ post.data.title }}</a></h3>
+    <p>{{ post.data.date_display }}</p>
+    <p>{{ post.data.preview_text }}</p>
+    <img src="/assets/images/posts/{{ post.data.img_dir }}/{{ post.data.preview_img }}" alt="a yellow rose above sheet music"/>
+  </div>
+{% endfor %}
+</ul>
+

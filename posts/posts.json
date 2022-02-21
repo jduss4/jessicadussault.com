@@ -1,0 +1,5 @@
+{
+    "body-class": "blog-post",
+    "layout": "default.njk",
+    "tags": ["posts"]
+}

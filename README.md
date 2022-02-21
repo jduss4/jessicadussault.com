@@ -1,9 +1,12 @@
-# Instructions
+# Jessica's super cool website
+
+
+## Local development
 
 Serve:
 
 ```
-npx @11ty/eleventy --serve
+npm start
 ```
 
 Build
