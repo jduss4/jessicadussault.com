@@ -218,6 +218,7 @@ nav {
   }
 
   a {
+    margin-right: 1em;
     text-decoration: none;
     &:hover, &:focus {
       color: $text-color;
@@ -229,8 +230,15 @@ nav {
     align-items: start;
   }
 
+  @media screen and (max-width: 750px) {
+    div {
+      flex-wrap: wrap;
+    }
+  }
+
   img {
     margin: 1em 1em 0 0;
+    max-width: 100%;
     width: 300px;
     &:hover {
       background-color:#000;
@@ -243,13 +251,6 @@ nav {
 /* post specific stuff */
 /* ******************* */
 
-.center {
-  display: block;
-  text-align: center;
-  width-left: auto;
-  width-right: auto;
-}
-
 .blog-post {
   img {
     margin: 0 auto .5em auto;
@@ -261,6 +262,13 @@ nav {
       max-width: 90%;
     }
   }
+}
+
+.center {
+  display: block;
+  text-align: center;
+  width-left: auto;
+  width-right: auto;
 }
 
 figure {
