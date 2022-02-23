@@ -250,32 +250,25 @@ nav {
   width-right: auto;
 }
 
-.img-gallery {
+.blog-post {
+  img {
+    margin: 0 auto .5em auto;
+    max-height: 400px;
+    max-width: 100%;
+  }
+  @media screen and (max-width: 750px) {
+    img {
+      max-width: 90%;
+    }
+  }
+}
+
+figure {
   display: flex;
-  flex-wrap: wrap;
-  margin-top: 1em;
-  margin-bottom: 1em;
+  flex-direction: column;
 }
 
-div.image {
-  border: 1px solid $base-color;
-  flex-basis: 30%;
-  margin: 1em;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 1em;
-  text-align: center;
-  vertical-align: middle;
-}
-
-.caption {
-  display: block;
-  margin-top: 1em;
-}
-
-.gallery-caption {
-  flex-basis: 100%;
-  margin-left: 10%;
-  margin-right: 10%;
-  text-align: center;
+figcaption {
+  margin: 0 auto 1em auto;
+  font-style: italic;
 }
