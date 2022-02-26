@@ -66,6 +66,32 @@ strong {
   font-weight: bold;
 }
 
+table {
+  margin: 1em auto;
+  width: 85%;
+
+  tr {
+    background: $alt-color;
+  }
+
+  /* zebra striping */
+  tr:nth-of-type(odd) {
+    background: white;
+  }
+
+  th {
+    background: $link-color;
+    color: white;
+    font-weight: bold;
+  }
+
+  td, th {
+    padding: 6px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+}
+
 /* **************** */
 /* body and content */
 /* **************** */
