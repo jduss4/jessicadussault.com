@@ -17,10 +17,6 @@ When I was a kid I had big plans. When I grew up I was going to:
 
 I have only accomplished one of those goals so far, but that's okay; I have done lots of other cool things, instead.
 
-After getting sidetracked from music performance by a career in digital humanities, I now find myself working as a programmer in civic tech. Before this, I worked for 7 years in the Center for Digital Research in the Humanities where I got to put together super cool projects with great people.
-
-Meanwhile, I am also fortunately enough to get to play a lot of music! I am a member of Lincoln's Symphony Orchestra and also play with Abendmusik, David von Kampen, Andrea von Kampen, the occasional touring artist, and one-offs around town.
-
 ### Calendar of major and minor feast days
 
 Those who observe the Jessica calendar will benefit from the helpful list of feast days below. Feast days with a fixed holiday which typically involve larger gatherings of friends or family are considered major feast days. Those days which are observed alone or in smaller groups are considered minor feast days, and often have floating dates.
