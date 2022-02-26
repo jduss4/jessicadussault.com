@@ -7,6 +7,7 @@
     "build": "npx sass _assets/css:_site/assets/css & npx @11ty/eleventy",
     "watch:sass": "npx sass _assets/css:_site/assets/css --watch",
     "watch:eleventy": "npx @11ty/eleventy --serve",
+    "new": "cp post-template.md \"posts/$(date +%F)-TITLE.md\"",
     "start": "npm run watch:eleventy & npm run watch:sass"
   }
 }
