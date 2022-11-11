@@ -4,7 +4,7 @@
   genres:
     - satire
     - war fiction
-  picker:
+  picker: John
 
 - title: Zen and the Art of Motorcycle Maintenance
   date: 2014-07-30
@@ -12,14 +12,14 @@
   genres:
     - philosophical fiction
     - autobiography
-  picker:
+  picker: Dylan
 
 - title: All Quiet on the Western Front
   date: 2014-08-27
   author: Erich Maria Remarque
   genres:
     - war fiction
-  picker:
+  picker: Joan
   notes: Misha taught people how to play Skat
 
 - title: A Canticle for Leibowitz
@@ -27,7 +27,7 @@
   author: Walter M. Miller Jr.
   genres:
     - science fiction
-  picker:
+  picker: Aaron
 
 - title: A Hitchhiker's Guide to the Galaxy
   date: 2014-10-29
@@ -65,7 +65,7 @@
   author: Sister Souljah
   genres:
     - literary fiction
-  picker:
+  picker: Tanika
 
 - title: The Invisible Pyramid
   date: 2015-03-26
@@ -73,14 +73,14 @@
   genres:
     - essays
     - scientific philosophy
-  picker:
+  picker: Delan
 
 - title: The Autobiography of Malcolm X
   date: 2015-04-28
   author: Malcolm X with Alex Haley
   genres:
     - autobiography
-  picker:
+  picker: Misha
 
 - title: Doomsday Book
   date: 2015-05-27
@@ -89,12 +89,12 @@
     - science fiction
   picker: Max
 
-- title: Poisonwood Bible
+- title: The Poisonwood Bible
   date: 2015-06-24
   author: Barbara Kingsolver
   genres:
     - historical fictiom
-  picker: Tanika
+  picker: John
 
 - title: King Leopold's Ghost
   date: 2015-06-24
@@ -172,7 +172,7 @@
   genres:
     - mathematical fiction
     - social commentary
-  picker:
+  picker: Max?
 
 - title: Flatterland
   date: 2016-03-01
@@ -196,7 +196,7 @@
   genres:
     - autobiography
     - nonfiction
-  picker:
+  picker: Dylan
 
 - title: The Monkey Wrench Gang
   date: 2016-06-14
@@ -229,7 +229,7 @@
   genres:
     - nonfiction
     - sociology
-  picker:
+  picker: Cassey
 
 - title: Good Omens
   date: 2016-11-17
@@ -246,7 +246,7 @@
     - short fiction
     - science fiction
     - afrofuturism
-  picker:
+  picker: Misha
 
 - title: The Underground Railroad
   date: 2017-02-07
@@ -254,7 +254,7 @@
   genres:
     - historical fiction
     - magical realism
-  picker:
+  picker: Dylan?
 
 - title: The Professor's House
   date: 2017-03-07
@@ -266,18 +266,18 @@
 
 - title: Pale Fire
   date: 2017-04-11
-  author: Nobokov
+  author: Vladimir Nobokov
   genres:
     - experimental fiction???
     - uhhhh
-  picker: Vladimir Nabokov
+  picker: Jeff L
 
 - title: White Trash
   date: 2017-05-30
   author: Nancy Isenberg
   genres:
     - nonfiction
-  picker: Nancy Isenberg 
+  picker:
 
 - title: The Fifth Season
   date: 2017-06-27
@@ -309,7 +309,7 @@
   genres:
     - wildlife documentary
     - comedy
-  picker: Steph?
+  picker: Steph
 
 - title: The Poisoner's Handbook
   date: 2017-11-14
@@ -341,7 +341,7 @@
   genres:
     - social commentary
     - comedy of manners
-  picker: Max?
+  picker: Max
 
 - title: Independent People
   date: 2018-03-29
@@ -365,7 +365,7 @@
   genres:
     - magical realism
     - experimental fiction
-  picker: Jeff M?
+  picker: Dylan?
 
 - title: "Evicted: Poverty and Profit in the American City"
   date: 2018-06-26
@@ -379,7 +379,7 @@
   author: Rachel Kushner
   genres:
     - fiction
-  picker: Jeff M?
+  picker: Jeff M
 
 - title: Peter Pan
   date: 2018-09-04
@@ -407,7 +407,7 @@
   author: Naomi Alderman
   genres:
     - science fiction
-  picker: John?
+  picker: John
 
 - title: Salvage the Bones
   date: 2019-01-19
