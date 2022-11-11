@@ -23,7 +23,7 @@ Cook Blub started with the theme "books that blew your mind when you were young"
       <td>{{ loop.index }}</td>
       <td>{{ book.title }}</td>
       <td>{{ book.author }}</td>
-      <td>{{ book.date.toUTCString() }}</td>
+      <td>{{ book.date | formatDate("MMM DD, YYYY") }}</td>
       <td>{{ book.genres }}</td>
       <td>{{ book.picker }}</td>
     </tr>

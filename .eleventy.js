@@ -1,3 +1,4 @@
+const dayjs = require('dayjs');
 const yaml = require("js-yaml");
 
 module.exports = function(eleventyConfig) {
@@ -10,6 +11,10 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addDataExtension("yml", contents =>
     yaml.load(contents)
   )
+
+  const formatDate = (date, format) => dayjs(date).format(format);
+  eleventyConfig.addFilter("formatDate", formatDate);
+
   return {
     dir: {
       includes: "_includes",
