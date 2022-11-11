@@ -1,0 +1,632 @@
+- title: Catch-22
+  date: 2014-06-25
+  author: Joseph Heller
+  genres:
+    - satire
+    - war fiction
+  picker: John
+
+- title: Zen and the Art of Motorcycle Maintenance
+  date: 2014-07-30
+  author: Robert M. Pirsig
+  genres:
+    - philosophical fiction
+    - autobiography
+  picker: Dylan
+
+- title: All Quiet on the Western Front
+  date: 2014-08-27
+  author: Erich Maria Remarque
+  genres:
+    - war fiction
+  picker: Joan
+  notes: Misha taught people how to play Skat
+
+- title: A Canticle for Leibowitz
+  date: 2014-09-24
+  author: Walter M. Miller Jr.
+  genres:
+    - science fiction
+  picker: Aaron
+
+- title: A Hitchhiker's Guide to the Galaxy
+  date: 2014-10-29
+  author: Douglas Adams
+  genres:
+    - comedy
+    - science fiction
+  picker:
+
+- title: Siddhartha
+  date: 2014-12-03
+  author: Hermann Hesse
+  genres:
+    - philosophical fiction
+  picker:
+
+- title: Hagakure
+  date: 2014-12-03
+  author: Yamamoto Tsunetomo
+  genres:
+    - manual
+    - spiritual guide
+  picker:
+
+- title: Electric Kool-Aid Acid Test
+  date: 2015-01-14
+  author: Tom Wolfe
+  genres:
+    - new journalism
+    - nonfiction
+  picker:
+
+- title: The Coldest Winter Ever
+  date: 2015-02-26
+  author: Sister Souljah
+  genres:
+    - literary fiction
+  picker: Tanika
+
+- title: The Invisible Pyramid
+  date: 2015-03-26
+  author: Loren Eiseley
+  genres:
+    - essays
+    - scientific philosophy
+  picker: Delan
+
+- title: The Autobiography of Malcolm X
+  date: 2015-04-28
+  author: Malcolm X with Alex Haley
+  genres:
+    - autobiography
+  picker: Misha
+
+- title: Doomsday Book
+  date: 2015-05-27
+  author: Connie Willis
+  genres:
+    - science fiction
+  picker: Max
+
+- title: The Poisonwood Bible
+  date: 2015-06-24
+  author: Barbara Kingsolver
+  genres:
+    - historical fictiom
+  picker: John
+
+- title: King Leopold's Ghost
+  date: 2015-06-24
+  author: Adam Hochschild
+  genres:
+    - nonfiction
+  picker: John
+
+- title: Daughter of Fortune
+  date: 2015-07-29
+  author: Isabel Allende
+  genres:
+    - historical fiction
+  picker: Kena
+
+- title: Starship Troopers
+  date: 2015-07-26
+  author: Robert Heinlein
+  genres:
+    - war fiction
+    - science fiction
+    - philosophical fiction
+  picker: Jess
+
+- title: Bad Feminist
+  date: 2015-09-16
+  author: Roxane Gay
+  genres:
+    - essays
+    - nonfiction
+  picker: Sarah
+  notes: Two parter, second session on 2015-09-03. On 2018-10-04 saw Roxane Gay speak.
+
+- title: Americanah
+  date: 2015-10-28
+  author: Chimamanda Ngozi Adichie
+  genres:
+    - literary fiction
+  picker:
+
+- title: Reading from Old Flames by Cliff Taylor
+  date: 2015-11-24
+  author: Cliff Taylor
+  genres:
+    - memoir
+  picker:
+
+- title: 1491
+  date: 2015-11-29
+  author: Charles C. Mann
+  genres:
+    - nonfiction
+  picker:
+  notes: Also watched Smoke Signals. Blubbed in two parts (745.5 at a time), second session on 2015-12-08.
+
+- title: A Wizard of Earthsea
+  date: 2016-01-07
+  author: Ursula K. Le Guin
+  genres:
+    - fantasy
+    - coming of age
+  picker: Jess
+
+- title: Homage to Catalonia
+  date: 2016-02-03
+  author: George Orwell
+  genres:
+    - nonfiction
+    - autobiography
+  picker: Misha
+
+- title: "Flatland: A Romance of Many Dimensions"
+  date: 2016-03-01
+  author: Edwin Abbott Abbott
+  genres:
+    - mathematical fiction
+    - social commentary
+  picker: Max?
+
+- title: Flatterland
+  date: 2016-03-01
+  author: Ian Stewart
+  genres:
+    - mathematical fiction
+    - popular science
+  picker:
+
+- title: The Fire Next Time
+  date: 2016-04-05
+  author: James Baldwin
+  genres:
+    - essays
+    - nonfiction
+  picker:
+
+- title: Between the World and Me
+  date: 2016-05-17
+  author: Ta-Nehisi Coates
+  genres:
+    - autobiography
+    - nonfiction
+  picker: Dylan
+
+- title: The Monkey Wrench Gang
+  date: 2016-06-14
+  author: Edward Abbey
+  genres:
+    - environmental fiction
+    - anarchy
+  picker: Aaron
+
+- title: The Green Boat
+  date: 2016-07-19
+  author: Mary Pipher
+  genres:
+    - self-help
+    - environmental nonfiction
+  picker: Tanika
+
+- title: The Hundred-Year Walk
+  date: 2016-09-06
+  author: Dawn Anahid MacKeen
+  genres:
+    - autobiography
+    - biography
+  picker: Jess
+  notes: Dawn MacKeen actually zoomed into our Cook Blub to answer questions and chat with us!
+
+- title: So You've Been Publicly Shamed
+  date: 2016-10-13
+  author: Jon Ronson
+  genres:
+    - nonfiction
+    - sociology
+  picker: Cassey
+
+- title: Good Omens
+  date: 2016-11-17
+  author: Neil Gaiman and Terry Pratchett
+  genres:
+    - comedy
+    - fantasy
+  picker: John and Jess
+
+- title: Mothership
+  date: 2017-01-05
+  author: Multiple
+  genres:
+    - short fiction
+    - science fiction
+    - afrofuturism
+  picker: Misha
+
+- title: The Underground Railroad
+  date: 2017-02-07
+  author: Colson Whitehead
+  genres:
+    - historical fiction
+    - magical realism
+  picker: Dylan?
+
+- title: The Professor's House
+  date: 2017-03-07
+  author: Willa Cather
+  genres:
+    - literary fiction
+  picker: Kena
+  notes: Joined by Andy from the Willa Cather Archive
+
+- title: Pale Fire
+  date: 2017-04-11
+  author: Vladimir Nobokov
+  genres:
+    - experimental fiction???
+    - uhhhh
+  picker: Jeff L
+
+- title: White Trash
+  date: 2017-05-30
+  author: Nancy Isenberg
+  genres:
+    - nonfiction
+  picker:
+
+- title: The Fifth Season
+  date: 2017-06-27
+  author: N.K. Jemisin
+  genres:
+    - science fantasy
+  picker: Max
+
+- title: Pym
+  date: 2017-08-03
+  author: Mat Johnson
+  genres:
+    - uhhhh
+    - dark comedy
+  picker:
+  notes: The coldest damn book club on the planet
+
+- title: The Immense Journey
+  date: 2017-09-07
+  author: Loren Eiseley
+  genres:
+    - essays
+    - environmental nonfiction
+  picker:
+
+- title: Last Chance to See
+  date: 2017-10-12
+  author: Douglas Adams and Mark Carwardine
+  genres:
+    - wildlife documentary
+    - comedy
+  picker: Steph
+
+- title: The Poisoner's Handbook
+  date: 2017-11-14
+  author: Deborah Blum
+  genres:
+    - popular science
+    - nonfiction
+  picker: Jess
+
+- title: Weapons of Math Destruction
+  date: 2017-12-12
+  author: Cathy O'Neil
+  genres:
+    - mathematics
+    - nonfiction
+  picker: John
+
+- title: One Hundred Years of Solitude
+  date: 2018-01-23
+  author: Gabriel García Márquez
+  genres:
+    - magical realism
+    - epic
+  picker:
+
+- title: The Misanthrope
+  date: 2018-02-06
+  author: Molière
+  genres:
+    - social commentary
+    - comedy of manners
+  picker: Max
+
+- title: Independent People
+  date: 2018-03-29
+  author: Halldór Laxness
+  genres:
+    - epic
+    - social realism
+  picker: Jeff L
+
+- title: A Room with a View
+  date: 2018-04-24
+  author: E. M. Forster
+  genres:
+    - romance
+    - social commentary
+  picker: Chanté
+
+- title: Lincoln in the Bardo
+  date: 2018-05-30
+  author: George Sanders
+  genres:
+    - magical realism
+    - experimental fiction
+  picker: Dylan?
+
+- title: "Evicted: Poverty and Profit in the American City"
+  date: 2018-06-26
+  author: Matthew Desmond
+  genres:
+    - nonfiction
+  picker: Cassey
+
+- title: The Mars Room
+  date: 2018-08-07
+  author: Rachel Kushner
+  genres:
+    - fiction
+  picker: Jeff M
+
+- title: Peter Pan
+  date: 2018-09-04
+  author: J. M. Barrie
+  genres:
+    - fantasy
+  picker: Misha
+
+- title: Welcome to Your Authentic Indian Experience
+  date: 2018-10-23
+  author: Rebecca Roanhorse
+  genres:
+    - short story
+  picker: Jess
+
+- title: Super Indian vol 1
+  date: 2018-10-23
+  author: Arigon Starr
+  genres:
+    - comics
+  picker: Jess
+
+- title: The Power
+  date: 2018-12-04
+  author: Naomi Alderman
+  genres:
+    - science fiction
+  picker: John
+
+- title: Salvage the Bones
+  date: 2019-01-19
+  author: Jesmyn Ward
+  genres:
+    - literary fiction
+  picker: Elizabeth
+
+- title: Less
+  date: 2019-02-26
+  author: Andrew Sean Greer
+  genres:
+    - satire
+    - literary fiction
+  picker:
+
+- title: This Blessed Earth
+  date: 2019-04-01
+  author: Ted Genoways
+  genres:
+    - nonfiction
+    - non-ricketts
+  picker:
+
+- title: Keith County Journal
+  date: 2019-05-13
+  author: John Janovy
+  genres:
+  picker: Kena
+
+- title: Trail of Lightning
+  date: 2019-06-25
+  author: Rebecca Roanhorse
+  genres:
+    - speculative fiction
+    - fantasy
+  picker:
+
+- title: Kindred
+  date: 2019-07-22
+  author: Octavia E. Butler
+  genres:
+    - science fiction
+  picker:
+
+- title: Catseye
+  date: 2019-09-10
+  author: Andre Norton
+  genres:
+    - science fiction
+  picker: Stephanie
+
+- title: American War
+  date: 2019-10-29
+  author: Omar El Akkad
+  genres:
+    - science fiction
+  picker: Cassey
+
+- title: One of Ours
+  date: 2019-12-12
+  author: Willa Cather
+  genres:
+    - historical fiction
+    - war fiction
+  picker: Jess? Or Kena?
+
+- title: "Trick Mirror: Reflections on Self Delusion"
+  date: 2020-01-28
+  author: Jia Tolentino
+  genres:
+    - essays
+  picker: Elizabeth
+
+- title: Watership Down
+  date: 2020-03-10
+  author: Richard Adams
+  genres:
+    - fantasy
+  picker:
+
+- title: "Sapiens: A Brief History of Humankind"
+  date: 2020-05-25
+  author: Yuval Noah Harari
+  genres:
+    - history
+    - philosophical
+  picker:
+
+- title: Long Way to a Small Angry Planet
+  date: 2020-06-25
+  author: Becky Chambers
+  genres:
+    - science fiction
+  picker:
+
+- title: Why Fish Don't Exist
+  date: 2020-07-30
+  author: Lulu Miller
+  genres:
+    - memoir
+    - history
+  picker:
+
+- title: The Hundred Thousand Kingdoms
+  date: 2020-09-10
+  author: N.K. Jemisin
+  genres:
+    - fantasy
+  picker: Jess
+
+- title: Persepolis
+  date: 2020-10-12
+  author: Marjane Satrapi
+  genres:
+    - graphic novel
+    - memoir
+  picker:
+
+- title: The House of the Spirits
+  date: 2020-12-08
+  author: Isabel Allende
+  genres:
+    - magical realism
+    - autobiography
+  picker: Kena
+
+- title: A Memory Called Empire
+  date: 2021-01-26
+  author: Arkady Martine
+  genres:
+    - science fiction
+  picker:
+  notes: Two parter took place on 2021-02-02
+
+- title: Song of Solomon
+  date: 2021-03-17
+  author: Toni Morrison
+  genres:
+    - literary fiction
+  picker:
+
+- title: It Came From Something Awful
+  date: 2021-05-04
+  author: Dale Beran
+  genres:
+    - nonfiction
+  picker:
+
+- title: The Once and Future Witches
+  date: 2021-06-22
+  author: Alix E. Harrow
+  genres:
+    - fantasy
+  picker: Cassey
+
+- title: Rivers of London
+  date: 2021-07-29
+  author: Ben Aaronovitch
+  genres:
+    - fantasy
+  picker: Jess
+
+- title: The Dud Avocado
+  date: 2021-08-31
+  author: Elaine Dundy
+  genres:
+    - autobiographicalish
+  picker: Elizabeth
+
+- title: Howl's Moving Castle
+  date: 2021-10-19
+  author: Diana Wynne Jones
+  genres:
+    - fantasy
+  picker: Cassey
+  notes: Also watched the movie!
+
+- title: Salt Fat Acid Heat
+  date: 2021-12-05
+  author: Samin Nosrat
+  genres:
+    - cookbook
+    - autobiographical
+  picker: Max
+
+- title: Parable of the Sower
+  date: 2022-02-08
+  author: Octavia E. Butler
+  genres:
+    - science fiction
+  picker: Jess
+
+- title: Sailing Alone Around the Room
+  date: 2022-04-26
+  author: Joshua Slocum
+  genres:
+    - poetry
+  picker: Elizabeth
+
+- title: "Let's Get Physical: How Women Discovered Exercise and Reshaped the World"
+  date: 2022-07-05
+  author: Danielle Friedman
+  genres:
+    - nonfiction
+  picker: Cassey
+
+- title: Spirit of the Harvest
+  date: 2022-08-30
+  author: Beverly Cox and Martin Jacobs
+  genres:
+    - cookbook
+    - nonfiction
+  picker: Kena
+
+- title: The Actual Star
+  date: 2022-11-01
+  author: Monica Byrne
+  genres:
+    - speculative fiction
+    - science fiction
+  picker: John

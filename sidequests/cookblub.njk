@@ -1,0 +1,31 @@
+---
+title: Cook Blub
+layout: default.njk
+---
+
+<h2>{{ title }}</h2>
+
+<p><em>"The coldest damn Cook Blub on the planet."</em></p>
+
+Cook Blub started with the theme "books that blew your mind when you were young" but has grown into something much greater. Though our members are now scattered across the continent, I hope that we shall continue to Blub for a long time to come.
+
+<table class="table-sort table-arrows remember-sort">
+  <tr>
+    <th>#</th>
+    <th>Title</th>
+    <th>Author</th>
+    <th>Date blubbed</th>
+    <th>Genres</th>
+    <th>The picker</th>
+  </tr>
+  {% for book in cookblub %}
+    <tr>
+      <td>{{ loop.index }}</td>
+      <td>{{ book.title }}</td>
+      <td>{{ book.author }}</td>
+      <td>{{ book.date | formatDate("MMM DD, YYYY") }}</td>
+      <td>{{ book.genres }}</td>
+      <td>{{ book.picker }}</td>
+    </tr>
+  {% endfor %}
+</table>

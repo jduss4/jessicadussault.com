@@ -92,6 +92,13 @@ table {
   }
 }
 
+// @media screen and (max-width: 600px) {
+//   table, tr {
+//     display: flex;
+//     flex-direction: vertical;
+//   }
+// }
+
 /* **************** */
 /* body and content */
 /* **************** */
@@ -216,7 +223,7 @@ nav {
     font-size: 2em;
   }
 
-  .navigation .nav-link {
+  nav .nav-link {
     border-left: 0;
     border-bottom: 3px solid $base-color;
     flex-basis: 60%;
@@ -225,6 +232,12 @@ nav {
     &:last-child {
       border-bottom: 0;
     }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  nav {
+    flex-direction: column;
   }
 }
 
