@@ -35,14 +35,14 @@
   genres:
     - comedy
     - science fiction
-  picker:
+  picker: Ricky
 
 - title: Siddhartha
   date: 2014-12-03
   author: Hermann Hesse
   genres:
     - philosophical fiction
-  picker:
+  picker: Max
 
 - title: Hagakure
   date: 2014-12-03
@@ -50,7 +50,7 @@
   genres:
     - manual
     - spiritual guide
-  picker:
+  picker: Max
 
 - title: Electric Kool-Aid Acid Test
   date: 2015-01-14
@@ -58,7 +58,7 @@
   genres:
     - new journalism
     - nonfiction
-  picker:
+  picker: Misha
 
 - title: The Coldest Winter Ever
   date: 2015-02-26
@@ -133,7 +133,7 @@
   author: Chimamanda Ngozi Adichie
   genres:
     - literary fiction
-  picker:
+  picker: Dylan
 
 - title: Reading from Old Flames by Cliff Taylor
   date: 2015-11-24
@@ -147,7 +147,7 @@
   author: Charles C. Mann
   genres:
     - nonfiction
-  picker:
+  picker: Tanika
   notes: Also watched Smoke Signals. Blubbed in two parts (745.5 at a time), second session on 2015-12-08.
 
 - title: A Wizard of Earthsea
@@ -172,7 +172,7 @@
   genres:
     - mathematical fiction
     - social commentary
-  picker: Max?
+  picker: Max
 
 - title: Flatterland
   date: 2016-03-01
@@ -180,7 +180,7 @@
   genres:
     - mathematical fiction
     - popular science
-  picker:
+  picker: Max
 
 - title: The Fire Next Time
   date: 2016-04-05
@@ -188,7 +188,7 @@
   genres:
     - essays
     - nonfiction
-  picker:
+  picker: John
 
 - title: Between the World and Me
   date: 2016-05-17
@@ -277,7 +277,7 @@
   author: Nancy Isenberg
   genres:
     - nonfiction
-  picker:
+  picker: Cassey
 
 - title: The Fifth Season
   date: 2017-06-27
@@ -292,7 +292,7 @@
   genres:
     - uhhhh
     - dark comedy
-  picker:
+  picker: Dylan
   notes: The coldest damn book club on the planet
 
 - title: The Immense Journey
@@ -301,7 +301,7 @@
   genres:
     - essays
     - environmental nonfiction
-  picker:
+  picker: Cassey
 
 - title: Last Chance to See
   date: 2017-10-12
@@ -333,7 +333,7 @@
   genres:
     - magical realism
     - epic
-  picker:
+  picker: Kena
 
 - title: The Misanthrope
   date: 2018-02-06
