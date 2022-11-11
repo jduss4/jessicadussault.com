@@ -5,6 +5,8 @@ body_class: home
 
 ## Welcome
 
-Jessica is a programmer and cellist based in Nebraska.
+I am a programmer and cellist based in Nebraska.
 
-She is, as you might have guessed, not a designer.
+As you might have guessed, I am not a designer.
+
+You can find me on <a rel="me noopener" target="_blank" href="https://mastodon.social/@codacode">Mastodon</a>.
