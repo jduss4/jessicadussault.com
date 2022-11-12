@@ -135,13 +135,6 @@
     - literary fiction
   picker: Dylan
 
-- title: Reading from Old Flames by Cliff Taylor
-  date: 2015-11-24
-  author: Cliff Taylor
-  genres:
-    - memoir
-  picker:
-
 - title: 1491
   date: 2015-11-29
   author: Charles C. Mann
@@ -422,7 +415,7 @@
   genres:
     - satire
     - literary fiction
-  picker:
+  picker: Dylan
 
 - title: This Blessed Earth
   date: 2019-04-01
@@ -430,12 +423,14 @@
   genres:
     - nonfiction
     - non-ricketts
-  picker:
+  picker: Pete R
 
 - title: Keith County Journal
   date: 2019-05-13
   author: John Janovy
   genres:
+    - essays
+    - environmental nonfiction
   picker: Kena
 
 - title: Trail of Lightning
@@ -444,21 +439,21 @@
   genres:
     - speculative fiction
     - fantasy
-  picker:
+  picker: Max
 
 - title: Kindred
   date: 2019-07-22
   author: Octavia E. Butler
   genres:
     - science fiction
-  picker:
+  picker: Misha?
 
 - title: Catseye
   date: 2019-09-10
   author: Andre Norton
   genres:
     - science fiction
-  picker: Stephanie
+  picker: Steph
 
 - title: American War
   date: 2019-10-29
@@ -473,7 +468,7 @@
   genres:
     - historical fiction
     - war fiction
-  picker: Jess? Or Kena?
+  picker: Jess? Or Kena? Or Dylan?
 
 - title: "Trick Mirror: Reflections on Self Delusion"
   date: 2020-01-28
@@ -487,7 +482,7 @@
   author: Richard Adams
   genres:
     - fantasy
-  picker:
+  picker: Kena
 
 - title: "Sapiens: A Brief History of Humankind"
   date: 2020-05-25
@@ -495,14 +490,14 @@
   genres:
     - history
     - philosophical
-  picker:
+  picker: Dylan
 
 - title: Long Way to a Small Angry Planet
   date: 2020-06-25
   author: Becky Chambers
   genres:
     - science fiction
-  picker:
+  picker: Max
 
 - title: Why Fish Don't Exist
   date: 2020-07-30
@@ -510,7 +505,7 @@
   genres:
     - memoir
     - history
-  picker:
+  picker: Cassey
 
 - title: The Hundred Thousand Kingdoms
   date: 2020-09-10
@@ -525,7 +520,7 @@
   genres:
     - graphic novel
     - memoir
-  picker:
+  picker: Elizabeth
 
 - title: The House of the Spirits
   date: 2020-12-08
@@ -536,26 +531,26 @@
   picker: Kena
 
 - title: A Memory Called Empire
-  date: 2021-01-26
+  date: 2021-02-02
   author: Arkady Martine
   genres:
     - science fiction
-  picker:
-  notes: Two parter took place on 2021-02-02
+  picker: Dylan?
+  notes: Event planned for 2021-01-26 was canceled
 
 - title: Song of Solomon
   date: 2021-03-17
   author: Toni Morrison
   genres:
     - literary fiction
-  picker:
+  picker: Dylan?
 
 - title: It Came From Something Awful
   date: 2021-05-04
   author: Dale Beran
   genres:
     - nonfiction
-  picker:
+  picker: Max
 
 - title: The Once and Future Witches
   date: 2021-06-22
