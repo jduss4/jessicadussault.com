@@ -247,7 +247,7 @@
   genres:
     - historical fiction
     - magical realism
-  picker: Dylan?
+  picker: Dylan
 
 - title: The Professor's House
   date: 2017-03-07
@@ -270,7 +270,7 @@
   author: Nancy Isenberg
   genres:
     - nonfiction
-  picker: Cassey
+  picker: Tanika?
 
 - title: The Fifth Season
   date: 2017-06-27
@@ -294,7 +294,7 @@
   genres:
     - essays
     - environmental nonfiction
-  picker: Cassey
+  picker: Delan
 
 - title: Last Chance to See
   date: 2017-10-12
@@ -358,7 +358,7 @@
   genres:
     - magical realism
     - experimental fiction
-  picker: Dylan?
+  picker: Dylan
 
 - title: "Evicted: Poverty and Profit in the American City"
   date: 2018-06-26
@@ -535,7 +535,7 @@
   author: Arkady Martine
   genres:
     - science fiction
-  picker: Dylan?
+  picker: Dylan
   notes: Event planned for 2021-01-26 was canceled
 
 - title: Song of Solomon
@@ -543,7 +543,7 @@
   author: Toni Morrison
   genres:
     - literary fiction
-  picker: Dylan?
+  picker: Dylan
 
 - title: It Came From Something Awful
   date: 2021-05-04
@@ -578,7 +578,7 @@
   author: Diana Wynne Jones
   genres:
     - fantasy
-  picker: Cassey
+  picker: Kena
   notes: Also watched the movie!
 
 - title: Salt Fat Acid Heat
