@@ -67,8 +67,12 @@ strong {
 }
 
 table {
+  display: block;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  overflow-x: auto;
   margin: 1em auto;
-  width: 85%;
+  width: 100%;
 
   tr {
     background: $alt-color;
@@ -91,13 +95,6 @@ table {
     text-align: left;
   }
 }
-
-// @media screen and (max-width: 600px) {
-//   table, tr {
-//     display: flex;
-//     flex-direction: vertical;
-//   }
-// }
 
 /* **************** */
 /* body and content */
@@ -287,19 +284,17 @@ nav {
 }
 
 /* ******************* */
-/* post specific stuff */
+/* image specific stuff */
 /* ******************* */
 
-.blog-post {
+img {
+  margin: 0 auto .5em auto;
+  max-height: 400px;
+  max-width: 100%;
+}
+@media screen and (max-width: 750px) {
   img {
-    margin: 0 auto .5em auto;
-    max-height: 400px;
-    max-width: 100%;
-  }
-  @media screen and (max-width: 750px) {
-    img {
-      max-width: 90%;
-    }
+    max-width: 90%;
   }
 }
 
