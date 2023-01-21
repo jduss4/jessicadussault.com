@@ -1,0 +1,30 @@
+---
+title: Books I've Read
+layout: default.njk
+---
+
+<h2>{{ title }}</h2>
+
+<p>Oh hello</p>
+
+{% for year in range(2016, 2024) | reverse -%}
+
+  <h3>{{ year }}</h3>
+  <p>{{ books[year] | length }} books</p>
+  <table class="table-sort table-arrows remember-sort">
+    <tr>
+      <th>#</th>
+      <th>Title</th>
+      <th>Author</th>
+      <th>Thoughts</th>
+    </tr>
+    {% for book in books[year] %}
+      <tr>
+        <td>{{ loop.index }}</td>
+        <td>{{ book.title }}</td>
+        <td>{{ book.author }}</td>
+        <td>{{ book.thoughts }}</td>
+      </tr>
+    {% endfor %}
+  </table>
+{% endfor %}

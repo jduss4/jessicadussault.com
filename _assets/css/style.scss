@@ -51,6 +51,10 @@ h6 {
   font-size: 1em;
 }
 
+li {
+  margin: 1em 0;
+}
+
 ol {
   list-style-type: decimal;
   margin-left: 20%;
@@ -67,12 +71,15 @@ strong {
 }
 
 table {
-  display: block;
-  max-width: -moz-fit-content;
-  max-width: fit-content;
-  overflow-x: auto;
   margin: 1em auto;
   width: 100%;
+
+  @media screen and (max-width: 600px) {
+    display: block;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    overflow-x: auto;
+  }
 
   tr {
     background: $alt-color;

@@ -5,6 +5,9 @@ layout: default.njk
 
 <h2>{{ title }}</h2>
 
-Things I want to put on a website that are not blogs, I guess.
+Some stuff that needs a place to live on this website
 
-[Cook Blub book list](cookblub)
+<h3>Book stuff</h3>
+
+- [Books I've read](books)
+- [The Cook Blub book list](cookblub)
