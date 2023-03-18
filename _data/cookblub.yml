@@ -632,3 +632,17 @@
   genres:
     - science fiction
   picker: Max
+
+- title: An Indigenous People's History of the United States
+  date: 2023-01-31
+  author: Roxanne Dunbar-Ortiz
+  genres:
+    - nonfiction
+  picker: Jessica
+
+- title: Jakob von Gunten, Ein Tagebuch
+  date: 2023-04-25
+  author: Robert Walser
+  genres:
+    - fictional soliloquy
+  picker: Elizabeth
