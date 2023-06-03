@@ -107,7 +107,7 @@ Those who observe the Jessica calendar may benefit from the helpful list of feas
   </thead>
   <tbody>
     <tr>
-      <td>June 1</td>
+      <td>June 4</td>
       <td>Kimber's birthday</td>
       <td>This one, we're pretty sure about</td>
     </tr>

@@ -646,3 +646,19 @@
   genres:
     - fictional soliloquy
   picker: Elizabeth
+
+- title: Killers of a Certain Age
+  date: 2023-06-08
+  author: Deanna Raybourn
+  genres:
+    - mystery
+    - thriller
+  picker: Cassey
+
+- title: Dirk Gently's Holistic Detective Agency
+  date: 2023-07-00
+  author: Douglas Adams
+  genres:
+    - science fiction
+    - comedy
+  picker: Kena
