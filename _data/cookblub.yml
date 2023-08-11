@@ -662,3 +662,11 @@
     - science fiction
     - comedy
   picker: Kena
+
+- title: Down and Out in the Magic Kingdom
+  date: 2023-08-00
+  author: Cory Doctorow
+  genres:
+    - science fiction
+    - social science fiction
+  picker: Karin
