@@ -24,7 +24,7 @@ Cook Blub started with the theme "books that blew your mind when you were young"
       <td>{{ book.title }}</td>
       <td>{{ book.author }}</td>
       <td>{{ book.date | formatDate("MMM DD, YYYY") }}</td>
-      <td>{{ book.genres }}</td>
+      <td>{{ book.genres | join(", ") }}</td>
       <td>{{ book.picker }}</td>
     </tr>
   {% endfor %}
