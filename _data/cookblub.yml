@@ -638,7 +638,7 @@
   author: Roxanne Dunbar-Ortiz
   genres:
     - nonfiction
-  picker: Jessica
+  picker: Jess
 
 - title: Jakob von Gunten, Ein Tagebuch
   date: "2023-04-25"
@@ -677,7 +677,7 @@
   genres:
     - fantasy
     - short stories
-  picker: Jessica
+  picker: Jess
 
 - title: Here in the Night
   date: "2023-11-09"
@@ -693,3 +693,30 @@
   genres:
     - young adult
   picker: Cassey
+
+- title: |
+    The Year of Living Biblically: One Man's Humble Quest to Follow the Bible
+    as Literally as Possible
+  date: "2024-01-16"
+  author: A.J. Jacobs
+  genres:
+    - memoir
+    - religious
+    - comedy
+  picker: Kena
+
+- title: |
+    Burnout: The Secret to Unlocking the Stress Cycle
+  date: "2024-02-20"
+  author: Emily Nagoski and Amelia Nagoski
+  genres:
+    - self-help
+  picker: Karin
+
+- title: The Last Report on the Miracles at Little No Horse
+  date: "2024-03"
+  author: Louise Erdrich
+  genres:
+    - fiction
+    - magical realism
+  picker: Jess
