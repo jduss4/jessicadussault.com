@@ -4,7 +4,7 @@
   genres:
     - satire
     - war fiction
-  picker: John
+  picker: John S
 
 - title: Zen and the Art of Motorcycle Maintenance
   date: "2014-07-30"
@@ -94,14 +94,14 @@
   author: Barbara Kingsolver
   genres:
     - historical fictiom
-  picker: John
+  picker: John S
 
 - title: King Leopold's Ghost
   date: "2015-06-24"
   author: Adam Hochschild
   genres:
     - nonfiction
-  picker: John
+  picker: John S
 
 - title: Daughter of Fortune
   date: "2015-07-29"
@@ -181,7 +181,7 @@
   genres:
     - essays
     - nonfiction
-  picker: John
+  picker: John S
 
 - title: Between the World and Me
   date: "2016-05-17"
@@ -230,7 +230,7 @@
   genres:
     - comedy
     - fantasy
-  picker: John and Jess
+  picker: John S and Jess
 
 - title: Mothership
   date: "2017-01-05"
@@ -318,7 +318,7 @@
   genres:
     - mathematics
     - nonfiction
-  picker: John
+  picker: John S
 
 - title: One Hundred Years of Solitude
   date: "2018-01-23"
@@ -400,7 +400,7 @@
   author: Naomi Alderman
   genres:
     - science fiction
-  picker: John
+  picker: John S
 
 - title: Salvage the Bones
   date: "2019-01-19"
@@ -624,7 +624,7 @@
   genres:
     - speculative fiction
     - science fiction
-  picker: John
+  picker: John S
 
 - title: Termination Shock
   date: "2022-12-27"
@@ -714,9 +714,17 @@
   picker: Karin
 
 - title: The Last Report on the Miracles at Little No Horse
-  date: "2024-03"
+  date: "2024-03-21"
   author: Louise Erdrich
   genres:
     - fiction
     - magical realism
   picker: Jess
+
+- title: A Psalm for the Wild-Built
+  date: "2024-04"
+  author: Becky Chambers
+  genres:
+    - solar punk
+    - science fiction
+  picker: John J
