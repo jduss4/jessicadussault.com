@@ -7,7 +7,7 @@ layout: default.njk
 
 Welcome to my website. It exists because I didn't want any other Jessica Dussaults out there to get the domain and put something I don't like on it. There are some Jessica Dussaults in the world who probably don't like what I've put on it, but I guess that's life.
 
-I guess I should introduce myself. My name is Jessica. I sometimes make terrible websites for myself. I try to make better websites for other people. This feels strange to me, because websites were not on my list in 6th grade when I decided on my life goals:
+Anyway, my name is Jessica. I am a programmer and cellist. I sometimes make terrible websites for myself. I try to make better digital things for other people. This feels strange to me, because that was not on my list in 6th grade when I decided on my life goals:
 
 - be a professional soccer player
 - play cello with the Boston Pops
@@ -34,8 +34,8 @@ Those who observe the Jessica calendar may benefit from the helpful list of feas
   </thead>
   <tbody>
   <tr>
-    <td>March 14</td>
-    <td>π day</td>
+    <td>March 14 / June 28th</td>
+    <td>π day / τ day (2π)</td>
     <td>Pies and pis</td>
   </tr>
   <tr>

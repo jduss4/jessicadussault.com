@@ -722,9 +722,26 @@
   picker: Jess
 
 - title: A Psalm for the Wild-Built
-  date: "2024-04"
+  date: "2024-04-22"
   author: Becky Chambers
   genres:
     - solar punk
     - science fiction
   picker: John J
+
+- title: The Best We Could Do
+  date: "2024-05-14"
+  author: Thi Bui
+  genres:
+    - graphic novel
+    - memoir
+  picker: Elizabeth
+
+- title: The Dispossessed
+  date: "2024-07-02"
+  author: Ursula K. LeGuin
+  genres:
+    - science fiction
+  picker: John S
+
+
