@@ -9,7 +9,7 @@ layout: default.njk
 
 Cook Blub started with the theme "books that blew your mind when you were young" but has grown into something much greater. Though our members are now scattered across the continent, I hope that we shall continue to Blub for a long time to come.
 
-<table class="table-sort table-arrows remember-sort">
+<table>
   <tr>
     <th>#</th>
     <th>Title</th>
@@ -18,9 +18,10 @@ Cook Blub started with the theme "books that blew your mind when you were young"
     <th>Genres</th>
     <th>The picker</th>
   </tr>
-  {% for book in cookblub %}
+  {% set bookCount = cookblub.length + 1 %}
+  {% for book in cookblub | reverse %}
     <tr>
-      <td>{{ loop.index }}</td>
+      <td>{{ bookCount - loop.index }}</td>
       <td>{{ book.title }}</td>
       <td>{{ book.author }}</td>
       <td>{{ book.date | formatDate("MMM DD, YYYY") }}</td>
