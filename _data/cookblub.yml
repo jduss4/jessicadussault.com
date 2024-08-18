@@ -750,3 +750,10 @@
   genres:
     - fantasy
   picker: Kena
+
+- title: Fangirl
+  date: "2024-09-26"
+  author: Rainbow Rowell
+  genres:
+    - young adult
+  picker: Karin
