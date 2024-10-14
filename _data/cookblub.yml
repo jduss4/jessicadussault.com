@@ -594,6 +594,7 @@
   author: Octavia E. Butler
   genres:
     - science fiction
+    - dystopia
   picker: Jess
 
 - title: Sailing Alone Around the Room
@@ -757,3 +758,18 @@
   genres:
     - young adult
   picker: Karin
+
+- title: The Light Pirate
+  date: "2024-10-21"
+  author: Lily Brooks-Dalton
+  genres:
+    - science fiction
+    - dystopia
+  picker: Carina
+
+- title: When We Cease to Understand the World
+  date: TBD
+  author: Benjamín Labatut
+  genres:
+    - alternate history
+  picker: Dylan
